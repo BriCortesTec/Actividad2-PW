@@ -1,10 +1,9 @@
-## Utileria.js
-
-López Cortés Hayley Brithany
+## Portada
+Hayley Cortés — Instituto Tecnológico de Oaxaca, Programación Web.
 
 **utileria.js** es una librería de JavaScript (sin frameworks) que resuelve el problema de **validar datos de formularios en español**: correos, nombres, teléfonos, contraseñas seguras y cálculo de edad. En vez de escribir la misma expresión regular en cada proyecto, se incluye un script y se llama a la función.
 
-**Demo en vivo:** https://bricortestec.github.io/Actividad2-PW/
+**GitPage:** https://bricortestec.github.io/Actividad2-PW/
 
 ## Instalación
 
@@ -83,10 +82,5 @@ Modal al iniciar sesión con éxito:
 
 ![Login exitoso](img/captura-login.png)
 
-## Video demo
-
-https://www.youtube.com/watch?v=_znPZ7BeEFs
-
-## Autora
-
-Hayley Cortés — Instituto Tecnológico de Oaxaca, Programación Web.
+## Video d
+https://youtu.be/w3OkII7s_68
