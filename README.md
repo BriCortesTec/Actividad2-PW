@@ -82,5 +82,5 @@ Modal al iniciar sesión con éxito:
 
 ![Login exitoso](img/captura-login.png)
 
-## Video d
+## Video
 https://youtu.be/w3OkII7s_68
