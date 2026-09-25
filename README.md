@@ -8,7 +8,7 @@ López Cortés Hayley Brithany
 
 ## Instalación
 
-Copia `js/utileria.js` a tu proyecto e inclúyelo en tu HTML antes de tu propio script:
+Hacer referencia de  `js/utileria.js` al proyecto e incluirlo en HTML antes del propio script:
 
 ```html
 <script src="js/utileria.js" defer></script>
