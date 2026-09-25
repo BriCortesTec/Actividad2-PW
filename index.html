@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/utileria.js" defer></script>
+    <script src="js/registro.js" defer></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>REGISTRO</h1>
+        <form id="formRegistro">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" placeholder="Ej. Hayley Cortés">
+
+            <label for="fechaNacimiento">Fecha de nacimiento</label>
+            <input type="date" id="fechaNacimiento">
+
+            <label for="telefono">Teléfono</p>
+            <input type="text" id="telefono" inputmode="numeric" maxlength="10" placeholder="10 digitos">
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" placeholder="ejemplo@correo.com">
+
+            <label for="password">Contraseña</p>
+            <input type="password" id="password" placeholder="Mínimo 8 caracteres">
+
+            <button type="submit">Registrar</button>
+        </form>
+        <p>¿Ya tienes una cuenta?
+            <a href="login.html">Ingresa aquí</a>
+        </p>
+        <p id="mensaje"></p>
+    </div>
+
+    <!-- MODAL -->
+    <div id="modalEdad" class="modal">
+        <div class="modal-contenido">
+            <span id="cerrarModal" class="cerrar">&times;</span>
+            <h2>Registro exitoso</h2>
+            <p id="resultadoEdad"></p>
+            <button id="aceptarModal">Aceptar</button>
+        </div>
+    </div>
+</body>
+</html>

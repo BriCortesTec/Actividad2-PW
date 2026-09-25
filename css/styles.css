@@ -1,0 +1,128 @@
+:root {
+    --color-fondo: rgb(101, 130, 85);
+    --color-contenedor: white;
+    --color-primario: rgb(49, 86, 34);
+    --color-texto: rgb(57, 57, 65);
+    --color-exito: rgb(74, 143, 95);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-fondo);
+    font-family: 'consolas', sans-serif;
+    color: var(--color-texto);
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 450px;
+    padding: 30px;
+    background-color: var(--color-contenedor);
+    border-radius: 25px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #52a3da;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--color-primario);
+    color: rgb(237, 239, 170);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+a{
+    color: var(--color-primario);
+    font-weight: bold;
+}
+
+#mensaje,
+#mensajeLogin {
+    color: rgb(221, 29, 29);
+    font-family: arial;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contenido {
+    width: 90%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.modal-contenido h2 {
+    margin-bottom: 15px;
+}
+
+.cerrar {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.campo-error{
+    border-color: rgb(221,29,29)!important;
+    background-color: rgba(221, 29, 29, 0.06);
+}
